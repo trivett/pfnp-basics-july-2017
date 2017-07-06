@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Temperature converter </title>
+</head>
+<body>
+  <h1>Temperature converter</h1>
+    <form id="temperature-conversion-form" onsubmit="return false;">
+
+      <input type="text" id="farenheit-input" placeholder="temperature in Farenheit" class="prompt">
+      <input type="submit">
+    </form>
+
+    <h2>Temperature in Celcius</h2>
+
+    <h3 id="answer"></h3>
+
+    <h3 id="freezing-warning">OMG it's FREEZING.</h3>
+    <h3 id="boiling-warning">OMG it's BOILING HOW IS THIS HAPPENING.</h3>
+
+<!-- This is where we bring in jQuery from a third party on the web-->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  <!-- this is where we bring in our JavaScript/jQuery code -->
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
