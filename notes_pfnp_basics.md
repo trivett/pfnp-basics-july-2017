@@ -278,35 +278,23 @@ It's going to be all Times New Roman and stuff but it's important to get the pra
 
 Try and use all of the following tags once: 
 
+
+
+```html
 <html>
-
 <head>
-
 <body>
-
 <h1>
-
 <h2>
-
 <ul>
-
 <ol>
-
 <li>
-
 <p>
-
 <img>
-
 <a>
-
 <div>
-
 <span>
-
-
-
-
+```
 
 
 
@@ -579,8 +567,6 @@ style.css
 app.js
 
 ```javascript
-
-
 // paste your function that converts farenheit to celcius here:
 
 function farenheitToCelsius(farenheit){
@@ -600,8 +586,6 @@ function displayAnswer(c){
     $("#freezing-warning").fadeIn();
   }
 }
-
-
 // listen for submit of the form to run the function that converts and the one that 
 
 $("#temperature-conversion-form").on("submit", function(){
